@@ -1,0 +1,25 @@
+// MAIN
+header {
+    background-image: url("../images/flowers2.png");
+}
+main {
+    div.photos {
+        flex-flow: row wrap;
+    }
+
+    figure.photo {
+        width: 50% - $gutterDbl;
+    }
+
+    div.blog {
+        flex-flow: row wrap;
+    }
+
+    div.blog article {
+        width: 50% - $gutterDbl;
+    }
+    div.pop2 {
+        background-image: url("../images/discovery.png");
+    }
+    
+}
